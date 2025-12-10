@@ -2,7 +2,7 @@
   "name": "medikart-ug",
   "private": true,
   "version": "0.0.0",
-  "homepage": "/https://bentech3.github.io/Medikart-ug/",
+  "homepage": "https://bentech3.github.io/Medikart-ug/",
   "type": "module",
   "scripts": {
     "dev": "vite",
