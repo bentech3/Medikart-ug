@@ -1,5 +1,5 @@
 {
-  "name": "medikart-ug",
+  "name": "Medikart-ug",
   "private": true,
   "version": "0.0.0",
   "homepage": "https://bentech3.github.io/Medikart-ug",
@@ -10,6 +10,7 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
