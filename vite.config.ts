@@ -8,8 +8,9 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
-    base: '/Medikart-ug/'
   },
+  base: '/Medikart-ug/',   // <- COMMA ADDED HERE
+
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
     alias: {
